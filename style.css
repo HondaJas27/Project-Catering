@@ -113,4 +113,13 @@
         font-size: 30px;
         padding-right: 0;
     }
+    .body {
+        font-size: 35px;
+    }
+    .buttonwrapper button {
+        height: 200px;
+        width: 300px;
+        margin: 35px;
+        font-size: 40px;
+    }
 }
