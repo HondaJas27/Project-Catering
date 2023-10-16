@@ -1,0 +1,97 @@
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Norican&family=Young+Serif&display=swap');
+
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo {
+    background-color: rgba(255, 0, 0, 0.2);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
+
+.logo p {
+    color: white;
+}
+
+.navbar p {
+    font-family: Norican ;
+    font-size: 35px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 95px;
+    background-color: white;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    padding-right: 150px;
+}
+
+.navbar ul li{
+    cursor: pointer;
+    border-bottom: transparent;
+    transition: border-bottom 1s;
+}
+
+.navbar ul li:hover{
+    border-bottom: 1px solid black;
+}
+
+.body {
+    height: calc(100vh - 190px);
+    background-image: url(img/steak.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.body {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    font-size: 25px;
+}
+
+.buttonwrapper button {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    transition: background-color ease-in 0.2s;
+    border-radius: 5px;
+}
+
+.buttonwrapper button:hover {
+    background-color: rgba(255, 0, 0, 0.61);
+
+}
+/* 
+#red {
+    background-color: rgb(218, 58, 58);
+    border-color: rgb(218, 58, 58);
+    height: 50px;
+    width: 150px;
+} */
