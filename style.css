@@ -88,10 +88,29 @@
     background-color: rgba(255, 0, 0, 0.61);
 
 }
-/* 
-#red {
-    background-color: rgb(218, 58, 58);
-    border-color: rgb(218, 58, 58);
-    height: 50px;
-    width: 150px;
-} */
+
+@media (min-width: 320px){
+    .logo {
+    background-color: rgba(255, 0, 0, 0.2);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    }
+
+    .logo p {
+        font-size: 35px;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+    .navbar {
+        height: 200px;
+    }
+    .navbar ul {
+        font-size: 30px;
+        padding-right: 0;
+    }
+}
